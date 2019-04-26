@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655DC7B82272B65100A5B10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DC7B72272B65100A5B10A /* AppDelegate.swift */; };
+		655DC7BA2272B65100A5B10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DC7B92272B65100A5B10A /* ViewController.swift */; };
+		655DC7BD2272B65100A5B10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655DC7BB2272B65100A5B10A /* Main.storyboard */; };
+		655DC7BF2272B65400A5B10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655DC7BE2272B65400A5B10A /* Assets.xcassets */; };
+		655DC7C22272B65400A5B10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655DC7C02272B65400A5B10A /* LaunchScreen.storyboard */; };
+		655DC7CD2272B65400A5B10A /* ForceTouchScale2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DC7CC2272B65400A5B10A /* ForceTouchScale2_0Tests.swift */; };
+		655DC7D82272B65400A5B10A /* ForceTouchScale2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DC7D72272B65400A5B10A /* ForceTouchScale2_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655DC7C92272B65400A5B10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655DC7AC2272B65100A5B10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655DC7B32272B65100A5B10A;
+			remoteInfo = ForceTouchScale2.0;
+		};
+		655DC7D42272B65400A5B10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655DC7AC2272B65100A5B10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655DC7B32272B65100A5B10A;
+			remoteInfo = ForceTouchScale2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		655DC7B42272B65100A5B10A /* ForceTouchScale2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchScale2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655DC7B72272B65100A5B10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655DC7B92272B65100A5B10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655DC7BC2272B65100A5B10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655DC7BE2272B65400A5B10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655DC7C12272B65400A5B10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655DC7C32272B65400A5B10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655DC7C82272B65400A5B10A /* ForceTouchScale2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchScale2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655DC7CC2272B65400A5B10A /* ForceTouchScale2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchScale2_0Tests.swift; sourceTree = "<group>"; };
+		655DC7CE2272B65400A5B10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655DC7D32272B65400A5B10A /* ForceTouchScale2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchScale2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655DC7D72272B65400A5B10A /* ForceTouchScale2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchScale2_0UITests.swift; sourceTree = "<group>"; };
+		655DC7D92272B65400A5B10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655DC7B12272B65100A5B10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7C52272B65400A5B10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7D02272B65400A5B10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655DC7AB2272B65100A5B10A = {
+			isa = PBXGroup;
+			children = (
+				655DC7B62272B65100A5B10A /* ForceTouchScale2.0 */,
+				655DC7CB2272B65400A5B10A /* ForceTouchScale2.0Tests */,
+				655DC7D62272B65400A5B10A /* ForceTouchScale2.0UITests */,
+				655DC7B52272B65100A5B10A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655DC7B52272B65100A5B10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655DC7B42272B65100A5B10A /* ForceTouchScale2.0.app */,
+				655DC7C82272B65400A5B10A /* ForceTouchScale2.0Tests.xctest */,
+				655DC7D32272B65400A5B10A /* ForceTouchScale2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655DC7B62272B65100A5B10A /* ForceTouchScale2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				655DC7B72272B65100A5B10A /* AppDelegate.swift */,
+				655DC7B92272B65100A5B10A /* ViewController.swift */,
+				655DC7BB2272B65100A5B10A /* Main.storyboard */,
+				655DC7BE2272B65400A5B10A /* Assets.xcassets */,
+				655DC7C02272B65400A5B10A /* LaunchScreen.storyboard */,
+				655DC7C32272B65400A5B10A /* Info.plist */,
+			);
+			path = ForceTouchScale2.0;
+			sourceTree = "<group>";
+		};
+		655DC7CB2272B65400A5B10A /* ForceTouchScale2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				655DC7CC2272B65400A5B10A /* ForceTouchScale2_0Tests.swift */,
+				655DC7CE2272B65400A5B10A /* Info.plist */,
+			);
+			path = ForceTouchScale2.0Tests;
+			sourceTree = "<group>";
+		};
+		655DC7D62272B65400A5B10A /* ForceTouchScale2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				655DC7D72272B65400A5B10A /* ForceTouchScale2_0UITests.swift */,
+				655DC7D92272B65400A5B10A /* Info.plist */,
+			);
+			path = ForceTouchScale2.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655DC7B32272B65100A5B10A /* ForceTouchScale2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655DC7DC2272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0" */;
+			buildPhases = (
+				655DC7B02272B65100A5B10A /* Sources */,
+				655DC7B12272B65100A5B10A /* Frameworks */,
+				655DC7B22272B65100A5B10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceTouchScale2.0;
+			productName = ForceTouchScale2.0;
+			productReference = 655DC7B42272B65100A5B10A /* ForceTouchScale2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655DC7C72272B65400A5B10A /* ForceTouchScale2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655DC7DF2272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0Tests" */;
+			buildPhases = (
+				655DC7C42272B65400A5B10A /* Sources */,
+				655DC7C52272B65400A5B10A /* Frameworks */,
+				655DC7C62272B65400A5B10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655DC7CA2272B65400A5B10A /* PBXTargetDependency */,
+			);
+			name = ForceTouchScale2.0Tests;
+			productName = ForceTouchScale2.0Tests;
+			productReference = 655DC7C82272B65400A5B10A /* ForceTouchScale2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		655DC7D22272B65400A5B10A /* ForceTouchScale2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655DC7E22272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0UITests" */;
+			buildPhases = (
+				655DC7CF2272B65400A5B10A /* Sources */,
+				655DC7D02272B65400A5B10A /* Frameworks */,
+				655DC7D12272B65400A5B10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655DC7D52272B65400A5B10A /* PBXTargetDependency */,
+			);
+			name = ForceTouchScale2.0UITests;
+			productName = ForceTouchScale2.0UITests;
+			productReference = 655DC7D32272B65400A5B10A /* ForceTouchScale2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655DC7AC2272B65100A5B10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Walker";
+				TargetAttributes = {
+					655DC7B32272B65100A5B10A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					655DC7C72272B65400A5B10A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 655DC7B32272B65100A5B10A;
+					};
+					655DC7D22272B65400A5B10A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 655DC7B32272B65100A5B10A;
+					};
+				};
+			};
+			buildConfigurationList = 655DC7AF2272B65100A5B10A /* Build configuration list for PBXProject "ForceTouchScale2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655DC7AB2272B65100A5B10A;
+			productRefGroup = 655DC7B52272B65100A5B10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655DC7B32272B65100A5B10A /* ForceTouchScale2.0 */,
+				655DC7C72272B65400A5B10A /* ForceTouchScale2.0Tests */,
+				655DC7D22272B65400A5B10A /* ForceTouchScale2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655DC7B22272B65100A5B10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655DC7C22272B65400A5B10A /* LaunchScreen.storyboard in Resources */,
+				655DC7BF2272B65400A5B10A /* Assets.xcassets in Resources */,
+				655DC7BD2272B65100A5B10A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7C62272B65400A5B10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7D12272B65400A5B10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655DC7B02272B65100A5B10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655DC7BA2272B65100A5B10A /* ViewController.swift in Sources */,
+				655DC7B82272B65100A5B10A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7C42272B65400A5B10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655DC7CD2272B65400A5B10A /* ForceTouchScale2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655DC7CF2272B65400A5B10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655DC7D82272B65400A5B10A /* ForceTouchScale2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655DC7CA2272B65400A5B10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655DC7B32272B65100A5B10A /* ForceTouchScale2.0 */;
+			targetProxy = 655DC7C92272B65400A5B10A /* PBXContainerItemProxy */;
+		};
+		655DC7D52272B65400A5B10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655DC7B32272B65100A5B10A /* ForceTouchScale2.0 */;
+			targetProxy = 655DC7D42272B65400A5B10A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655DC7BB2272B65100A5B10A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655DC7BC2272B65100A5B10A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655DC7C02272B65400A5B10A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655DC7C12272B65400A5B10A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655DC7DA2272B65400A5B10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655DC7DB2272B65400A5B10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655DC7DD2272B65400A5B10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655DC7DE2272B65400A5B10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655DC7E02272B65400A5B10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchScale2.0.app/ForceTouchScale2.0";
+			};
+			name = Debug;
+		};
+		655DC7E12272B65400A5B10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchScale2.0.app/ForceTouchScale2.0";
+			};
+			name = Release;
+		};
+		655DC7E32272B65400A5B10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForceTouchScale2.0;
+			};
+			name = Debug;
+		};
+		655DC7E42272B65400A5B10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForceTouchScale2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielWalker.ForceTouchScale2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForceTouchScale2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655DC7AF2272B65100A5B10A /* Build configuration list for PBXProject "ForceTouchScale2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655DC7DA2272B65400A5B10A /* Debug */,
+				655DC7DB2272B65400A5B10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655DC7DC2272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655DC7DD2272B65400A5B10A /* Debug */,
+				655DC7DE2272B65400A5B10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655DC7DF2272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655DC7E02272B65400A5B10A /* Debug */,
+				655DC7E12272B65400A5B10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655DC7E22272B65400A5B10A /* Build configuration list for PBXNativeTarget "ForceTouchScale2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655DC7E32272B65400A5B10A /* Debug */,
+				655DC7E42272B65400A5B10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655DC7AC2272B65100A5B10A /* Project object */;
+}
